@@ -10,7 +10,7 @@ b.pack(anchor='center')
 
 def time():
     c = strftime('%H:%M:%S:%p')
-    b.config(text=c, font=('DS-DIGITAL', 50), background="black", foreground="cyan")
+    b.config(text=c,font=('DS-DIGITAL', 50), background="black", foreground="cyan")
     b.after(1000, time)
 
 
